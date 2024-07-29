@@ -6,7 +6,7 @@
     <title>Aline Kettylen</title>
 </head>
 <body>
-    <h1>Minha primeira página HTML</h1>
+    <h1>Minha primeira página em PHP</h1>
     <?php
     echo "Olá Mundo"
     
