@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(212, 255, 241);
+            text-align: center;
+            font-size: 25px;
+            font-family: Cambria;
+            margin-top: 100px;
+            color:rgb(0, 112, 112);
+        }
+        label{
+            font-size: 30px
+        }
+        input{
+            padding: 8px;
+            width: 300px;
+        }
+        .botao{
+            width: 200px;
+            height: 30px;
+            color: aquamarine;
+            background-color: rgb(0, 112, 112);
+        }
+    </style>
+
+    <div class="quadrado">
+        <h1>Calcule seu IMC agora! É totalmente gratuito!</h1>
+        <form action="Atividade11.php" method="post">
+            <label for="peso">Informe o seu peso (kg):</label>
+            <input type="text" id="peso" name="peso"><br><br>
+            <label for="altura">Informe a sua altura (m):</label>
+            <input type="text" id="altura" name="altura"><br><br>
+            <input class="botao" type="submit" value="Calcular IMC">
+        </form>
+    </div>
+
+</body>
+</html>
